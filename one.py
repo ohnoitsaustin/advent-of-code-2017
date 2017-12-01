@@ -15,6 +15,7 @@ pairs = [getPairAdjacent(captcha, i) for i in range(0, len(captcha))]
 pairValues = [pairValue(*pair) for pair in pairs]
 answer = sum(pairValues)
 
+print("answer for day 1 part 1:")
 print(answer)
 
 
@@ -22,4 +23,5 @@ pairs = [getPairOpposite(captcha, i) for i in range(0, len(captcha))]
 pairValues = [pairValue(*pair) for pair in pairs]
 answer = sum(pairValues)
 
+print("answer for day 1 part 2:")
 print(answer)
