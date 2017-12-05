@@ -32,7 +32,7 @@ def get_answer(puzzle_input: str, row_value_func: Callable[[List[int]], int]) ->
     return sum_of_row_values
 
 
-puzzleInput = open('two-input.txt', 'r').read()
+puzzleInput = open('02-input.txt', 'r').read()
 
 answer = get_answer(puzzleInput, diff_of_min_and_max)
 print('Day 2 answer 1: ' + str(answer))

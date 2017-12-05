@@ -27,7 +27,7 @@ aa bb cc dd aaa'''
 print(valid_passphrases(tests, contains_no_duplicate_words))     # [True, False, True]
 
 
-puzzle_input = open('four-input.txt', 'r').read()
+puzzle_input = open('02-input.txt', 'r').read()
 valid = valid_passphrases(puzzle_input, contains_no_duplicate_words)
 print(len([p for p in valid if p]))     # number of valid passwords
 
